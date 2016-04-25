@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# usage:
+#
+# $ cat << EOF | ./configjson-escape
+# ...
+# EOF
+
+cat - \
+	| sed 's,\\,\\\\,g' \
+	| sed -e ':a' -e 'N' -e '$!ba' -e 's/\n/\&#xd;\&#xa;/g' \
+	| sed 's,<,\&lt;,g' \
+	| sed 's,",\&quot;,g'
+

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/demo/modules/02-basic-renderer"/>
+    <filter root="/etc/cloudsettings/default/contexthub/demo/02-basic-renderer"/>
+</workspaceFilter>
