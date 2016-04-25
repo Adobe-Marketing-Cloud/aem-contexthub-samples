@@ -1,1 +1,20 @@
-## aem-contexthub-samples
+## ContextHub Code Examples
+
+This repository contains:
+- [stores and modules samples](samples)
+  - [stores](samples/stores)
+    - [session store](samples/stores/01-session-store)
+    - [persisted store](samples/stores/02-persisted-store)
+    - [jsonp store](samples/stores/03-jsonp-store)
+    - [persisted jsonp store](samples/stores/04-persisted-jsonp-store)
+  - [modules](samples/modules)
+    - [reusing generic renderer](samples/modules/01-reusing-generic-renderer)
+    - [basic renderer](samples/modules/02-basic-renderer)
+    - [renderer with popover](samples/modules/03-renderer-with-popover)
+    - [renderer with fullscreen](samples/modules/04-renderer-with-fullscreen)
+- [stores and modules templates](templates)
+  - [store structure](templates/store-structure)
+  - [module structure](templates/module-structure)
+- [extras](extras)
+  - [sluggish jsonp store](extras/sluggish-json-service)
+  - [aem-configjson-escape](extras/aem-configjson-escape)
