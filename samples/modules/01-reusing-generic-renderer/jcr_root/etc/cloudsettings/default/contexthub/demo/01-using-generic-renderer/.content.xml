@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="nt:unstructured"
-    jcr:title="This is a demo content - module reusing generic renderer"
+    jcr:title="Example 01 - module reusing generic renderer"
     sling:resourceType="/libs/granite/contexthub/cloudsettings/components/baseuimodule"
     configjson="\{&#xd;&#xa;    &quot;title&quot;: &quot;Generic Renderer&quot;,&#xd;&#xa;    &quot;icon&quot;: &quot;coral-Icon--targeted&quot;,&#xd;&#xa;    &quot;storeMapping&quot;: {&#xd;&#xa;        &quot;x&quot;: &quot;01-session-store&quot;&#xd;&#xa;    },&#xd;&#xa;    &quot;template&quot;: &quot;&lt;p>Generic Renderer&lt;/p>&lt;p>{{x.name}}, {{x.age}}&lt;/p>&quot;,&#xd;&#xa;    &quot;clickable&quot;: false&#xd;&#xa;}"
     enabled="{Boolean}true"
