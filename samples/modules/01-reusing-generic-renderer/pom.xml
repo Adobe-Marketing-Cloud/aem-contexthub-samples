@@ -1,22 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-
-  ADOBE CONFIDENTIAL
-  __________________
-
-   Copyright 2016 Adobe Systems Incorporated
-   All Rights Reserved.
-
-  NOTICE:  All information contained herein is, and remains
-  the property of Adobe Systems Incorporated and its suppliers,
-  if any.  The intellectual and technical concepts contained
-  herein are proprietary to Adobe Systems Incorporated and its
-  suppliers and are protected by trade secret or copyright law.
-  Dissemination of this information or reproduction of this material
-  is strictly forbidden unless prior written permission is obtained
-  from Adobe Systems Incorporated.
-
--->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
@@ -42,9 +24,9 @@
     <description>Content Package containing sample module implementation.</description>
 
     <scm>
-        <connection>scm:git:git@git.corp.adobe.com:akudlacz/documents.git</connection>
-        <developerConnection>scm:git:git@git.corp.adobe.com:akudlacz/documents.git</developerConnection>
-        <url>https://git.corp.adobe.com/akudlacz/documents/tree/master/contexthub-related/contexthub-store-examples/samples/modules/01-reusing-generic-renderer</url>
+        <connection>scm:git:git@github.com:Adobe-Marketing-Cloud/aem-contexthub-samples.git</connection>
+        <developerConnection>scm:git:git@github.com:Adobe-Marketing-Cloud/aem-contexthub-samples.git</developerConnection>
+        <url>https://github.com/Adobe-Marketing-Cloud/aem-contexthub-samples/tree/master/samples/modules/01-reusing-generic-renderer</url>
         <tag>HEAD</tag>
     </scm>
 
